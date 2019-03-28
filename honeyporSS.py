@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # MIT License
-# Copyright (c) 2019 Sergio Blazquez Lopez 
+# Copyright (c) 2019 Sergio Blazquez Lopez (Em50L)
 
 import socket
 import os
