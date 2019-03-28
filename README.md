@@ -9,6 +9,7 @@ Como: casi todo ataque va precedido de una deteccion/escaner. En este caso coloc
 
 Este script dada su sencillez lo he licenciado bajo Licencia MIT (la mas permisiva)
 Luego podras usarlo , modificarlo incluso a nivel privado.
+
 https://es.wikipedia.org/wiki/Licencia_MIT
 
 https://choosealicense.com/licenses/mit/
