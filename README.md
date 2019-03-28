@@ -13,3 +13,15 @@ Luego podras usarlo , modificarlo incluso a nivel privado.
 https://es.wikipedia.org/wiki/Licencia_MIT
 
 https://choosealicense.com/licenses/mit/
+
+
+![](Estadisticas_HoneyPotSS.jpg)
+
+Estadisticas reales de los bloqueos realizados por el script en 5VPS
+(ver http://node.jejo.pw/honeymap).
+
+En el momento de la captura el honeypot ha bloqueado **6000 ataques** 
+y solo han pasado 89 ataques a la defensa del siguiente nivel.
+Luego este honeypot bloquea por si solo el **98%** de los ataques.
+
+En un futuro articulo presentare una defensa muy superior y mas elaborada que detectara ataques incluso sin abrir los puertos. esta defensa bloquea el **99,9911** de los ataque recibidos.
