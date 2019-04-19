@@ -1,9 +1,7 @@
 #!/usr/bin/python
 # MIT License
 # Copyright (c) 2019 Sergio Blazquez Lopez (Em50L)
-
-import socket
-import os
+import os,socket
 
 puerto = 23 #23 puerto telnet (el mas atacado) otros 22 y 445
 
@@ -24,9 +22,9 @@ while True:
     # Aqui decides que quieres hacer con los datos de la ip capturada.
     # ej Registrar avisar , banear .....
     #os.system("logger -p auth.info honeypot conexion desde "+ info_conexion[0])
-    #os.system("iptables -A INPUT -s " + info_conexion[0] + " -j DROP ")
+    #os.system("iptables -A INPUT -j DROP -s " + info_conexion[0])
     os.system("fail2ban-client set ssh banip "+info_conexion[0])
-    #os.system("curl 'http://honeymap_server/ipban?ip="+info_conexion[0]+"&m=honeypot'&")#ojo con los &
+    #os.system("curl 'http://honeymap_server/ipmap?ip="+info_conexion[0]+"&m=honeypot'&")#ojo con los &
     #os.system("echo "+info_conexion[0]+" > /dev/udp/honeymap_server/1234")
 
 honey_socket.close()
