@@ -26,7 +26,7 @@ Luego este honeypot bloquea por si solo el **98%** de los ataques.
 
 En un futuro articulo presentare una defensa muy superior y mas elaborada que detectara ataques incluso sin abrir los puertos. esta defensa bloquea el **99,9911** de los ataque recibidos.
 
-´´´
+```
 #!/usr/bin/python
 # MIT License
 # Copyright (c) 2019 Sergio Blazquez Lopez (Em50L)
@@ -58,4 +58,4 @@ while True:
 
 honey_socket.close()
 print 'Fin programa!'
-´´´
+```
